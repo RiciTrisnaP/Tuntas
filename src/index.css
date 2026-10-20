@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+/* TUNTAS design tokens (from the Figma design system frame) */
+@theme {
+  --font-sans: "Urbanist", ui-sans-serif, system-ui, sans-serif;
+  --font-inter: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-ink: #1a2433;
+  --color-muted: #5b6b7d;
+  --color-line: #d9e1e8;
+  --color-canvas: #f7f9fb;
+
+  --color-navy: #1f3a5f;
+  --color-navy-soft: #e9edf2;
+  --color-navy-200: #c9d4e2;
+
+  --color-teal: #1f7a7a;
+  --color-teal-soft: #e9f2f2;
+
+  --color-red: #b83a3a;
+  --color-red-soft: #f8ebeb;
+
+  --color-amber: #c98a1b;
+  --color-amber-ink: #8a5c0e;
+  --color-amber-soft: #faf3e8;
+  --color-amber-tint: #fcf4e4;
+
+  --color-green: #2e7d4f;
+  --color-green-soft: #eaf2ed;
+  --color-green-tint: #e7f4ec;
+
+  --color-gray-soft: #eff0f2;
+  --color-gray-tint: #edf0f3;
+
+  --color-purple: #7a5aa6;
+  --color-purple-soft: #f2eef6;
+
+  --color-wa-bg: #efeae2;
+  --color-wa-ink: #111b21;
+  --color-wa-meta: #667781;
+
+  --shadow-card: 0 1px 1px rgba(26, 36, 51, 0.06);
+}
+
+body {
+  margin: 0;
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  cursor: pointer;
+}
