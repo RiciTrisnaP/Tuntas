@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "data:generate": "node scripts/generate-data.mjs",
+    "data:validate": "node --experimental-strip-types --test tests/pipeline.test.ts",
+    "test": "npm run data:validate"
   },
   "dependencies": {
     "react": "^19.3.1",
